@@ -25,7 +25,7 @@ export default function Day({ day, rowIdx }) {
       : "";
   }
   return (
-    <div className="bg-lightB text-xs rounded-lg p-1 lg:p-4 flex flex-col">
+    <div className="bg-lightB text-xs rounded-sm lg:rounded-lg p-1 lg:p-4 flex flex-col">
       <header className="flex flex-col items-center">
         {rowIdx === 0 && (
           <p className="text-xs lg:text-sm mt-1">
