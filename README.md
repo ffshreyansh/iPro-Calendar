@@ -46,13 +46,3 @@ The application should be running at `http://localhost:3000`.
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, feel free to create an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- [Any credits or acknowledgments for third-party libraries, inspirations, etc.]
-
-Happy scheduling!
-
