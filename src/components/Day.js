@@ -25,15 +25,15 @@ export default function Day({ day, rowIdx }) {
       : "";
   }
   return (
-    <div className="bg-lightB rounded-lg p-4 flex flex-col">
+    <div className="bg-lightB text-xs rounded-lg p-1 lg:p-4 flex flex-col">
       <header className="flex flex-col items-center">
         {rowIdx === 0 && (
-          <p className="text-sm mt-1">
+          <p className="text-xs lg:text-sm mt-1">
             {day.format("ddd").toUpperCase()}
           </p>
         )}
         <p
-          className={`text-sm p-1 my-1 text-center  ${getCurrentDayClass()}`}
+          className={`text-xs lg:text-sm p-1 my-1 text-center  ${getCurrentDayClass()}`}
         >
           {day.format("DD")}
         </p>
@@ -49,7 +49,7 @@ export default function Day({ day, rowIdx }) {
           <div
             key={idx}
             onClick={() => setSelectedEvent(evt)}
-            className={`bg-${evt.label}-200 p-1 mr-3 text-gray-600 text-sm rounded mb-1 truncate`}
+            className={`bg-${evt.label}-200 p-1 mr-0 lg:mr-3 text-gray-600 text-xs lg:text-sm rounded mb-1 truncate`}
           >
             {evt.title}
           </div>

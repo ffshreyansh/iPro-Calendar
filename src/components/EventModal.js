@@ -32,10 +32,8 @@ export default function EventModal() {
   );
   const navigate = useNavigate();
   function handleView() {
-    // Assuming daySelected is a Moment.js object
     const formattedDate = daySelected.format("YYYY-MM-DD");
     
-    // Redirect to the dynamic route
     navigate(`/calendar/${formattedDate}`);
   }
 
